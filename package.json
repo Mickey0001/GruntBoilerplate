@@ -1,0 +1,22 @@
+{
+  "name": "GruntBoilerplate",
+  "version": "1.0.0",
+  "description": "Grunt boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mickey0001/Grunt.git"
+  },
+  "author": "Mirza Sisic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mickey0001/Grunt/issues"
+  },
+  "homepage": "https://github.com/Mickey0001/Grunt#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3"
+  }
+}
