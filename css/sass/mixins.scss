@@ -1,4 +1,4 @@
-@mixin ninjalink ($link, $visit, $hover, $active) {
+@mixin links ($link, $visit, $hover, $active) {
   a {
     color: $link;
     &:visited {

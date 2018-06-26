@@ -17,5 +17,6 @@ module.exports = function(grunt){
 
   //Register tasks
   grunt.registerTask('concat-js', ['concat:js']);
+  grunt.registerTask('concat-css', ['concat:css']);
 
 }

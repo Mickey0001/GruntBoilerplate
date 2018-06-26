@@ -2,6 +2,8 @@ $base-color: #777;
 $second-color: #333;
 $heading-font: Arial;
 
+@import 'mixins';
+
 .element {
   width: 100px;
   height: 100px;
@@ -18,4 +20,5 @@ $heading-font: Arial;
 
 .heading{
   font-family: $heading-font;
+  @include links ('blue', 'red', 'black', 'grey');
 }
