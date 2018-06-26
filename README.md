@@ -1,9 +1,9 @@
-# Grunt
-Grunt tasks basic boilerplate.
+# GruntBoilerplate
+## Grunt starter boilerplate for basic tasks.
 
-* 1.Have Node.js and npm installed
-* 2.Install grunt-cli globally
-* 3.Install grunt locally 
-* 4.Create a gruntfile.js
-* 5.Install grunt plugins
-* 6.Run a tasks by using grunt command
+* Have Node.js and npm installed
+* Install grunt-cli globally
+* Install grunt locally 
+* Create a gruntfile.js
+* Install grunt plugins
+* Run a tasks by using grunt command
