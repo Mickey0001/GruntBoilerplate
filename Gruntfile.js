@@ -24,7 +24,23 @@ module.exports = function(grunt){
         files: [{
           src: 'build/scripts.js',
           dest: 'build/scripts.js'
-        }]
+        }],  
+      },
+    },
+    htmlmin: {                                  
+      dist: {                                      
+        options: {                                 
+          removeComments: true,
+          collapseWhitespace: true
+        },
+        files: {                                   
+          'dist/index.html': 'src/index.html'    
+        }
+      },
+      dev: {                                    
+        files: {
+          'html/index.html': 'build/index.html'
+        }
       }
     }
   });
@@ -32,11 +48,12 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-contrib-htmlmin');
 
   //Register tasks, for example run grunt concat-js
   grunt.registerTask('concat-js', ['concat:js']);
   grunt.registerTask('concat-css', ['concat:css']);
   
   //Default task, runs all task with grunt command
-  grunt.registerTask('default', ['concat-js', 'concat-css', 'sass', 'uglify']);
+  grunt.registerTask('default', ['concat-js', 'concat-css', 'sass', 'uglify', 'htmlmin']);
 }
