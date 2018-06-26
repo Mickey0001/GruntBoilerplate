@@ -18,6 +18,8 @@
   "homepage": "https://github.com/Mickey0001/Grunt#readme",
   "devDependencies": {
     "grunt": "^1.0.3",
-    "grunt-contrib-concat": "^1.0.1"
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-sass": "^2.1.0",
+    "node-sass": "^4.9.0"
   }
 }
