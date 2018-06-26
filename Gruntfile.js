@@ -1,19 +1,21 @@
 module.exports = function(grunt){
   //Configuration
   grunt.initConfig({
-    //Pass in option for plugins and refrence files
+    concat: {
+      js: {
+        src: ['js/*.js'],
+        dest: 'build/scripts.js'
+      },
+      css: {
+        src: ['css/*.css'],
+        dest: 'build/styles.css'
+      }
+    }
   });
   //Load a plugin
-  grunt.loadNpmTasks('');
+  grunt.loadNpmTasks('grunt-contrib-concat');
 
   //Register tasks
-  grunt.registerTask('run', function(){
-    console.log('Running!');
-  });
+  grunt.registerTask('concat-js', ['concat:js']);
 
-  grunt.registerTask('sleep', function(){
-    console.log('Sleeping...');
-  });
-
-  grunt.registerTask('all', ['run', 'sleep']);
 }
