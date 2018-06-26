@@ -46,6 +46,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Exclude node dependencies
 node_modules
 .npm-debug.log
 tmp
