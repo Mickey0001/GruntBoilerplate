@@ -27,21 +27,16 @@ module.exports = function(grunt){
         }],  
       },
     },
-    htmlmin: {                                  
-      dist: {                                      
-        options: {                                 
+    htmlmin: {                                     // Task
+      dist: {                                      // Target
+        options: {                                 // Target options
           removeComments: true,
           collapseWhitespace: true
         },
-        files: {                                   
-          'dist/index.html': 'src/index.html'    
+        files: {                                   // Dictionary of files
+          'build/index.html': 'html/index.html'     // 'destination': 'source'
         }
       },
-      dev: {                                    
-        files: {
-          'html/index.html': 'build/index.html'
-        }
-      }
     }
   });
   //Load a plugin
