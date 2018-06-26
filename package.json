@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mickey0001/Grunt.git"
+    "url": "git+https://github.com/Mickey0001/GruntBoilerplate.git"
   },
   "author": "Mirza Sisic",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mickey0001/Grunt/issues"
+    "url": "https://github.com/Mickey0001/GruntBoilerplate/issues"
   },
-  "homepage": "https://github.com/Mickey0001/Grunt#readme",
+  "homepage": "https://github.com/Mickey0001/GruntBoilerplate#readme",
   "devDependencies": {
     "grunt": "^1.0.3",
     "grunt-contrib-concat": "^1.0.1",
