@@ -36,5 +36,7 @@ module.exports = function(grunt){
   //Register tasks, for example run grunt concat-js
   grunt.registerTask('concat-js', ['concat:js']);
   grunt.registerTask('concat-css', ['concat:css']);
+  
+  //Default task, runs all task with grunt command
   grunt.registerTask('default', ['concat-js', 'concat-css', 'sass', 'uglify']);
 }
